@@ -56,6 +56,7 @@ namespace PaymentApp
         {
             if (rbCredit.Checked)
             {
+                //second commit
                 if (lbCCtype.SelectedIndex == -1 )
                 {
                     MessageBox.Show("You must select a credit card type.",
