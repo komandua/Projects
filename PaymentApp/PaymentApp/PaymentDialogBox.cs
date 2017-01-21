@@ -46,6 +46,7 @@ namespace PaymentApp
 
         private void btnOK_Click(object sender, EventArgs e)
         {
+            // Just a test for Git.
             if (IsValidData())
             {
                 this.SaveData();
