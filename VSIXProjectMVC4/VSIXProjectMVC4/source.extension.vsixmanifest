@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="VSIXProjectMVC4.Anantha Komanduru.da3d5ff9-3bba-4af5-9679-2a75521f90e8" Version="1.0" Language="en-US" Publisher="Anantha Komanduru" />
+    <DisplayName>Custom MVC 4 Template</DisplayName>
+    <Description xml:space="preserve">MVC 4 Project TemplateMV</Description>
+  </Metadata>
+  <Installation AllUsers="true">
+    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[14.0]" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+  </Dependencies>
+  <Assets>
+  <Asset d:VsixSubPath="ProjectTemplates\MyMvcWebApplicationProjectTemplate.csaspx"
+
+Type="Microsoft.VisualStudio.Mvc.Template"
+
+d:Source="File"
+
+Path="ProjectTemplates\MyMvcWebApplicationProjectTemplate.csaspx\BasicMvcWebApplicationProjectTemplate.11.csaspx.vstemplate"
+
+ProjectType="MVC"
+
+Language="C#"
+
+ViewEngine="Aspx"
+
+TemplateId="MyMvcApplication"
+
+Title="Custom Basic Web Application"
+
+Description="A custom template derived from a Basic MVC web application (Razor)"
+
+Version="4.0" />
+  </Assets>
+</PackageManifest>
