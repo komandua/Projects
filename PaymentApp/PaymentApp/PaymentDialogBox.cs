@@ -14,6 +14,7 @@ namespace PaymentApp
     {
         public frmPayment()
         {
+            // Change payment app
             InitializeComponent();
         }
 
