@@ -15,6 +15,7 @@ namespace PaymentApp
         static void Main()
         {
             // change 2
+            // change 3
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
