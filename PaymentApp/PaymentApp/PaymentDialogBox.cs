@@ -20,6 +20,7 @@ namespace PaymentApp
 
         private void frmPayment_Load(object sender, EventArgs e)
         {
+            //Change in Bug Fix
             lbCCtype.Items.Add("Visa");
             lbCCtype.Items.Add("MasterCard");
             lbCCtype.Items.Add("American Express");
